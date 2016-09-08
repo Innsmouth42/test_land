@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Вся Будова Одессы</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/main.css">
+	<script src='js/jquery.min.js'></script>
+</head>
+<body>
+<div class="mark-container">
+	<div class="mark-box flex-center">
+		<div class="leave-mark-container">
+			<div class="line-container size">
+				<div class="mark-click flex-center"><span>оставить заявку</span></div>
+				<form action="">
+					<input class="size" id="name" type="text" placeholder="Имя*">
+					<input class="size" id="phone" type="text" placeholder="Телефон*">
+				</form>
+				<button class="markBtn">Оставить</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="shadow" class="flex-center">
+	<div id="recall-box">
+		<div id="close-recall-box" class="close flex-center">
+			<div>
+				<span class="c1"></span>
+				<span class="c2"></span>
+			</div>
+		</div>
+		<h1>Заказать звонок</h1>
+		<h4>Напишите свое имя и контактный номер телефона и наши менеджеры свяжутся с Вами!</h4>
+		<form action="">
+			<input id="name" type="text" placeholder="Имя*">
+			<input id="phone" type="text" placeholder="Телефон*">
+		</form>
+		<button class="recall-btn">Заказать</button>
+	</div>
+</div>
+
+
+<!-- HEADER -->
+	<header class="line-container size">
+		<img class="logo" src="img/Logo.svg" alt="">
+		<span class="whiteline"></span>
+		<div class="line-container numbers-row size flex-center flex-reverse">
+			<button id="recall" class="recall-btn">перезвоните мне</button>
+			<div class="phone-numbers">
+				<span class="line-container phone-numbers-span">+38 (048) <span>770 34 30</span></span>
+				<span class="line-container phone-numbers-span">+38 (067) <span>518 90 09</span></span>
+			</div>
+			<img src="img/Phone.svg" alt="">
+			<div class="phone-numbers">
+				<span class="line-container phone-numbers-span">+38 (063) <span>913 66 43</span></span>
+				<span class="line-container phone-numbers-span">+38 (099) <span>785 82 48</span></span>
+			</div>
+		</div>
+		<div class="line-container">
+			<ul class="nav">
+				<li><a href="#">о компании</a></li>
+				<li><a href="#">новостройки</a></li>
+				<li><a href="#">квартиры</a></li>
+				<li><a href="#">цены</a></li>
+				<li><a href="#">контакты</a></li>
+			</ul>
+			<div class="mini-nav">
+				<div id="hamb" class="hamb size">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul id="mob-nav">
+					<li><a href="#">о компании</a></li>
+					<li><a href="#">новостройки</a></li>
+					<li><a href="#">квартиры</a></li>
+					<li><a href="#">цены</a></li>
+					<li><a href="#">контакты</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+<!-- HEADER END -->
+
+
+<!-- SLIDER -->
+	<div class="line-container">
+		<div class="slides-container">
+			<div id="slide-row" class="slide-row">
+				<div id="slide-one" class="slide"></div>
+				<div id="slide-two" class="slide"></div>
+				<div id="slide-three" class="slide"></div>
+			</div>
+		</div>
+		<div class="slider-nav flex-center size">
+			<img id="slidebtn-left" src="img/Arrow.svg" alt="">
+			<p id="slide-description">Продажа недвижимости от официального представителя строительной компании</p>
+			<img id="slidebtn-right" src="img/Arrow.svg" alt="">
+		</div>
+	</div>
+<!-- SLIDER END -->
+
+
+<!-- CONTENT -->
+	<div class="wrap">
+		<h1>Новые объекты</h1>
+		<h2>от строительной компании «Будова»</h2>
+		<div class="objects line-container">
+		<!-- OBJECT BOX 1 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/1.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Мандарин»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 2 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/2.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Четыре сезона»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 3 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/3.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Новый берег»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 4 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/4.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Альтаир. Звездный городок»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 5 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/5.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Альтаир-2»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 6 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/6.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Гольфстрим. Дом на Генуэзской»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 7 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/7.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Бельэтаж. Дом на Белинского»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		<!-- OBJECT BOX 8 -->
+			<div class="obj-box">
+				<div class="obj-preview">
+					<img src="img/8.jpg" alt="">
+					<div class="jk-more-container">
+						<a href="#"><span class="jk-more"><span>Подробнее о ЖК</span></span></a>
+					</div>
+				</div>
+				<div class="obj-description line-container size">
+					<span class="obj-name line-container">ЖК «Апельсин»</span>
+					<div class="obj-sc line-container">
+						<span class="obj-span line-container">Район: <span>Приморский</span></span>
+						<span class="obj-span line-container">Срок сдачи: <span>II квартал 2017 года</span></span>
+					</div>
+					<span class="obj-price line-container">Цена от: <span>21 700 грн./м2</span></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="about-des line-container">
+			<h1>Недвижимость от СК «Будова»</h1>
+			<div class="a-par">
+				<p>At non itidem maior meus Socrates, qui cum decorum adulescentem et diutule tacentem conspicatus foret, "ut te videam", inquit, "aliquid et loquere." Scilicet Socrates tacentem hominem non videbat; etenim arbitrabatur homines non oculorum, sed mentis acie et animi obtutu considerandos. Nec ista re cum Plautino milite congruebat, qui ita ait: Pluris est oculatus testis unus quam auriti decem. Immo enimvero hunc versum ille ad examinandos homines converterat: Pluris est auritus testis unus quam oculati decem. Ceterum si magis pollerent oculorum quam animi iudicia, profecto de sapientia foret aquilae concedendum. Homines enim neque longule dissita neque proxume adsita possumus cernere, verum omnes quodam modo caecutimus: ac si ad oculos et obtutum istum terrenum redigas et hebetem, profecto verissime poeta egregius dixit velut nebulam nobis ob oculos offusam nec cernere nos nisi intra lapidis iactum valere. Aquila enimvero cum se nubium tenus altissime sublimavit evecta alis totum istud spatium, qua pluitur et ninguitur, ultra quod cacumen nec fulmini nec fulguri locus est, in ipso, ut ita dixerim, solo aetheris et fastigio hiemis cum igitur eo sese aquila extulit, nutu clementi laevorsum vel dextrorsum tanta mole corporis labitur, velificatas alas quo libuit advertens modico caudae gubernaculo, inde cuncta despiciens ibidem pinnarum eminens indefessa remigia ac paulisper cunctabundo volatu paene eodem loco pendula, circumtuetur et quaerit, quorsus potissimum in praedam superne sese ruat fulminis vicem; de caelo improvisa, simul campis pecua, simul montibus feras, simul homines urbibus uno obtutu sub eodem impetu cernens, unde rostro transfodiat, unde unguibus inuncet vel agnum incuriosum vel leporem meticulosum vel quodcumque esui animatum vel laniatui fors obtulit . . . </p>
+				<div class="a-btn-container line-container">
+					<button id="a-btn" class="recall-btn">Читать подробнее</button>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- CONTENT END -->
+
+
+<!-- FOOTER -->
+	<footer class="line-container">
+		<div class="line-container footer-des size">
+			Наш опыт работы на рынке недвижимости 15 лет - Партнер СК «Будова» - Стоимость квартир от застройщика, оформление 0%
+		</div>
+		<div class="footer-main size line-container flex-center">
+			<ul class="footer-nav">
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Новостройки</a></li>
+				<li><a href="#">Квартиры</a></li>
+				<li><a href="#">Цены</a></li>
+				<li><a href="#">Контакты</a></li>
+			</ul>
+			<div class="consult">
+				<h1>Консультации менеджеров</h1>
+				<div class="phone-numbers">
+					<span class="line-container phone-numbers-span">+38 (048) <span>770 34 30</span></span>
+					<span class="line-container phone-numbers-span">+38 (067) <span>518 90 09</span></span>
+				</div>
+				<div class="phone-numbers">
+					<span class="line-container phone-numbers-span">+38 (063) <span>913 66 43</span></span>
+					<span class="line-container phone-numbers-span">+38 (099) <span>785 82 48</span></span>
+				</div>
+			</div>
+			<ul class="soc-block">
+				<ul>
+					<li>Украина г. Одесса</li>
+					<li>Пр. Шевченка, 7</li>
+				</ul>
+				<ul>
+					<li>Мы в соцсетях</li>
+					<li>
+						<a href="#"><img src="img/Facebook.svg" alt=""></a>
+						<a href="#"><img src="img/Vkontakte.svg" alt=""></a>
+					</li>
+				</ul>
+			</ul>
+		</div>
+	</footer>
+<!-- FOOTER END -->
+<script src='js/main.js'></script>
+</body>
+</html>
